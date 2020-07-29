@@ -1,9 +1,9 @@
 <?php
 
-namespace app\api\controller;
+namespace EasyApi\Controller;
 
-use app\api\controller\Api;
-use app\api\controller\Send;
+use EasyApi\Controller\Api;
+use EasyApi\Controller\Send;
 use Think\Controller;
 use EasyWeChat\Factory;
 

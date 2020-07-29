@@ -1,16 +1,16 @@
 <?php
 
-namespace app\api\controller\v1;
+namespace EasyApi\Controller\v1;
 
 use think\Controller;
-use app\api\controller\Api;
-use app\api\controller\Send;
+use EasyApi\Controller\Api;
+use EasyApi\Controller\Send;
 use think\Db;
 
 /**
  * 管理员登录
  * Class User
- * @package app\api\controller\v1
+ * @package EasyApi\Controller\v1
  */
 class User extends Api
 {
@@ -54,14 +54,6 @@ class User extends Api
 
 
     }
-
-    /**
-     * 管理员信息
-     */
-    public function admin_info()
-    {
-
-    }
-
+    
 
 }

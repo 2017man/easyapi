@@ -1,14 +1,14 @@
 <?php
 
-namespace app\api\controller;
+namespace EasyApi\Controller;
 
 use think\Controller;
-use app\api\controller\Oauth;
+use EasyApi\Controller\Oauth;
 
 /**
  * 公共加密模块
  * Class Ecode
- * @package app\api\controller
+ * @package EasyApi\controller
  * base64_encode(appid:accesstoken:uid)
  */
 class Encode

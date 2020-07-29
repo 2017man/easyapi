@@ -1,5 +1,5 @@
 <?php
-namespace app\api\validate;
+namespace EasyApi\validate;
 
 use think\Validate;
 /**

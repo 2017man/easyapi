@@ -1,6 +1,6 @@
 <?php
 
-namespace app\api\exception;
+namespace EasyApi\exception;
 
 use think\Exception;
 

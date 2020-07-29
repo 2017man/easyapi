@@ -1,8 +1,8 @@
 <?php
 
-namespace app\api\controller;
+namespace EasyApi\Controller;
 
-use app\api\controller\Send;
+use EasyApi\Controller\Send;
 use think\Exception;
 use think\facade\Request;
 use think\facade\Cache;

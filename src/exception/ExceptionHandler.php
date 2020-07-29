@@ -1,6 +1,6 @@
 <?php
 
-namespace app\api\exception;
+namespace EasyApi\exception;
 
 use think\exception\Handle;
 use think\Log;
@@ -9,7 +9,7 @@ use Exception;
 /**
  * 重写Handle的render方法，实现自定义异常消息
  * Class ExceptionHandler
- * @package app\api\library\exception
+ * @package EasyApi\library\exception
  */
 class ExceptionHandler extends Handle
 {

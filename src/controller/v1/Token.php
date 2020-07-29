@@ -1,13 +1,13 @@
 <?php
 
-namespace app\api\controller\v1;
+namespace EasyApi\Controller\v1;
 
 use think\Request;
-use app\api\controller\Send;
-use app\api\controller\Oauth;
+use EasyApi\Controller\Send;
+use EasyApi\Controller\Oauth;
 use think\facade\Cache;
-use app\api\utils\wxBizDataCrypt;
-use app\api\model\AuthApi;
+use EasyApi\utils\wxBizDataCrypt;
+use EasyApi\model\AuthApi;
 
 /**
  * 生成token
@@ -40,7 +40,7 @@ class Token
     public function token(Request $request)
     {
         //参数验证
-        $validate = new \app\api\validate\Token;
+        $validate = new \EasyApi\validate\Token;
         if (!$validate->check(input(''))) {
             return self::returnMsg(401, $validate->getError());
         }

@@ -1,11 +1,11 @@
 <?php
 
-namespace EasyApi\controller;
+namespace EasyApi\Controller;
 
 use think\Controller;
 use think\Request;
-use EasyApi\controller\Send;
-use EasyApi\controller\Oauth;
+use EasyApi\Controller\Send;
+use EasyApi\Controller\Oauth;
 
 /**
  * api 入口文件基类，需要控制权限的控制器都应该继承该类

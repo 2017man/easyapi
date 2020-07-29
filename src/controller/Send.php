@@ -1,6 +1,6 @@
 <?php
 
-namespace app\api\controller;
+namespace EasyApi\Controller;
 
 use think\Controller;
 use think\Request;

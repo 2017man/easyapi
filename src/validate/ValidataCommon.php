@@ -1,12 +1,12 @@
 <?php
-namespace app\api\validate;
+namespace EasyApi\validate;
 
-use app\api\controller\Send;
+use EasyApi\Controller\Send;
 
 /**
  * 公共验证码方法
  * Class Common
- * @package app\api\validate
+ * @package EasyApi\validate
  */
 class ValidataCommon
 {

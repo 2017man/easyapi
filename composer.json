@@ -1,6 +1,6 @@
 {
   "name": "2017man/easyapi",
-  "description": "Third party message push",
+  "description": "restfull api for thinkphp 5.1.*",
   "authors": [
     {
       "name": "man",

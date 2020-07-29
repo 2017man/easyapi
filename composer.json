@@ -1,0 +1,19 @@
+{
+  "name": "2017man/easyapi",
+  "description": "Third party message push",
+  "authors": [
+    {
+      "name": "man",
+      "email": "3398284534@qq.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "EasyApi\\": "src/"
+    }
+  }
+}

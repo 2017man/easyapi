@@ -44,10 +44,10 @@ class Ymt extends Api
     {
 
         $config = [
-            'accessKeyId' => 'LTAIWO0ujW8aUAbT',
-            'accessKeySecret' => 'rjdLnIQemT5HsK6ErEOmpVYpJrNSmN',
-            'signName' => '崆峒健康通',
-            'defaultTemplate' => 'SMS_193511229'
+            'accessKeyId' => '***',
+            'accessKeySecret' => '***',
+            'signName' => '***',
+            'defaultTemplate' => '***'
         ];
 
         $smsApi = new SmsApi($config);
